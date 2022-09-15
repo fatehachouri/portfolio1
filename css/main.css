@@ -24,6 +24,13 @@ html{
     border-radius: 50%;
     overflow: hidden;
 }
+@media(max-width:991px){
+    .box{
+        width: 300px;
+        height: 300px;
+    }
+
+}
 .box::before{
     content: "";
     position: absolute;
